@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Hello. It's practical task 1(7):)</p>
+
+  <script>
+    let numToCheck = prompt('Type your number here', '');
+    let mul3 = numToCheck % 3;
+    let mul7 = numToCheck % 7;
+
+    if (numToCheck < 1) {
+      alert('Please, reload the page and enter a positive number only.');
+    } else if (mul3 === 0) {
+      alert('Your number is a multiple to 3.');
+    } else if (mul7 === 0) {
+      alert('Your number is a multiple to 7.');
+    } else {
+      alert('Your number is positive, but is not a multiple to 3 or 7');
+    }
+
+    console.log(Boolean(numToCheck % 3 || numToCheck % 7));
+  </script>
+
+  <p>Check console.log message</p>
+
+</body>
+
+</html>
