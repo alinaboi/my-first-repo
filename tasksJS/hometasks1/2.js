@@ -1,4 +1,4 @@
 const givenString = 'someTextHere';
 
-const newString = Test_ + 'givenString';
+const newString = `Test_${givenString}`;
 console.log(newString);
