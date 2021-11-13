@@ -1,0 +1,25 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinaboi/my-first-repo.git"
+  },
+  "author": "Alina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinaboi/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/alinaboi/my-first-repo#readme",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0"
+  }
+}
